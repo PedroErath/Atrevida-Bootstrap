@@ -3,5 +3,12 @@ body{
 }
 #carousel-home{
     max-width: 1320px;
-    height: 800px;
+    height: 500px;
+}
+#img-slide{
+    filter: brightness(20%);
+    height: 500px;
+}
+#img-card{
+    height: 400px;
 }
