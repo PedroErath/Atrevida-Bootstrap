@@ -1,3 +1,7 @@
-.bg-header{
+body{
     background-color: #ffccc8;
+}
+#carousel-home{
+    max-width: 1320px;
+    height: 800px;
 }

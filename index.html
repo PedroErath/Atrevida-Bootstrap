@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav class="container-xxl navbar navbar-expand-sm bg-header">
+    <nav class="container-xxl navbar navbar-expand-sm">
         <div class="container-fluid p-3">
             <h1 class="fw-bold">ATREVIDA</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
@@ -38,6 +38,45 @@
             </div>
         </div>
     </nav>
+
+    <div id="carousel-home" class="carousel slide carousel-fade container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="3000">
+                <img src="./images/engin-akyurt-0bgCyhlq9oU-unsplash.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Centro de Beleza Atrevida</h5>
+                    <p>Marque um horário e venha conhecer o meu trabalho</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/nicolas-flor-ZoebrkckhTs-unsplash.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Slide 2</h5>
+                    <p>Texto do Slide 2</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/paul-siewert-dnpa8k6TGRE-unsplash.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Slide 3</h5>
+                    <p>Texto do Slide 3</p>
+                </div>
+            </div>
+        </div>
+        <Button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </Button>
+        <Button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proxímo</span>
+        </Button>
+    </div>
 
 </body>
 
