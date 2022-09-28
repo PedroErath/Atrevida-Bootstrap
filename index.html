@@ -13,120 +13,145 @@
 
 <body class="px-md-4">
 
-    <nav class="container-xxl navbar navbar-expand-sm">
-        <div class="container-fluid p-3">
-            <h1 class="fw-bold">ATREVIDA</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">MANDALAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-success" href="#">
-                            <img src="./images/logo-whatsapp.svg" height="25px">
-                            WhatsApp
-                        </a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="container-xxl navbar navbar-expand-sm">
+            <div class="container-fluid p-3">
+                <h1 class="fw-bold">ATREVIDA</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold " href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">MANDALAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn ms-2 btn-outline-success fw-bold" href="#">
+                                <img src="./images/logo-whatsapp.svg" height="25px">
+                                WhatsApp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <div id="carousel-home" class="carousel slide carousel-fade container mb-5" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <main>
+        <div id="carousel-home" class="carousel slide carousel-fade container mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="3000">
+                    <img id="img-slide" src="./images/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
+                        class="d-block w-100 rounded-4" alt="Slide 1">
+                    <div class="carousel-caption">
+                        <h5>Centro de Beleza Atrevida</h5>
+                        <p>Marque um horário e venha conhecer o meu trabalho</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img id="img-slide" src="./images/nicolas-flor-ZoebrkckhTs-unsplash.jpg"
+                        class="d-block w-100 rounded-4" alt="Slide 2">
+                    <div class="carousel-caption">
+                        <h5>Slide 2</h5>
+                        <p>Texto do Slide 2</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img id="img-slide" src="./images/paul-siewert-dnpa8k6TGRE-unsplash.jpg"
+                        class="d-block w-100 rounded-4" alt="Slide 3">
+                    <div class="carousel-caption">
+                        <h5>Slide 3</h5>
+                        <p>Texto do Slide 3</p>
+                    </div>
+                </div>
+            </div>
+            <Button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </Button>
+            <Button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Proxímo</span>
+            </Button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active " data-bs-interval="3000">
-                <img id="img-slide" src="./images/engin-akyurt-0bgCyhlq9oU-unsplash.jpg" class="d-block w-100 rounded-4"
-                    alt="Slide 1">
-                <div class="carousel-caption">
-                    <h5>Centro de Beleza Atrevida</h5>
-                    <p>Marque um horário e venha conhecer o meu trabalho</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img id="img-slide" src="./images/nicolas-flor-ZoebrkckhTs-unsplash.jpg" class="d-block w-100 rounded-4"
-                    alt="Slide 2">
-                <div class="carousel-caption">
-                    <h5>Slide 2</h5>
-                    <p>Texto do Slide 2</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img id="img-slide" src="./images/paul-siewert-dnpa8k6TGRE-unsplash.jpg" class="d-block w-100 rounded-4"
-                    alt="Slide 3">
-                <div class="carousel-caption">
-                    <h5>Slide 3</h5>
-                    <p>Texto do Slide 3</p>
-                </div>
-            </div>
-        </div>
-        <Button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </Button>
-        <Button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Proxímo</span>
-        </Button>
-    </div>
 
-    <div class="card-group justify-content-center d-block d-md-flex m-4">
-        <div class="card m-sm-3 rounded-2">
-            <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                class="card-img-top rounded-top" alt="mechas">
-            <div class="card-body text-center">
-                <h5 class="card-title">Mechas</h5>
-                <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
-                <a href="#" class="btn btn-primary">Saiba Mais </a>
+        <div class="container justify-content-center">
+            <div class="card-group justify-content-center d-block d-md-flex m-4">
+                <div class="card m-sm-3 rounded-2">
+                    <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
+                        class="card-img-top rounded-top" alt="mechas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mechas</h5>
+                        <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais </a>
+                    </div>
+                </div>
+                <div class="card m-sm-3 rounded-2">
+                    <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
+                        class="card-img-top rounded-top" alt="mechas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mechas</h5>
+                        <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais </a>
+                    </div>
+                </div>
+                <div class="card m-sm-3 rounded-2">
+                    <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
+                        class="card-img-top rounded-top" alt="mechas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mechas</h5>
+                        <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card m-sm-3 rounded-2">
-            <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                class="card-img-top rounded-top" alt="mechas">
-            <div class="card-body text-center">
-                <h5 class="card-title">Mechas</h5>
-                <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
-                <a href="#" class="btn btn-primary">Saiba Mais </a>
-            </div>
-        </div>
-        <div class="card m-sm-3 rounded-2">
-            <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                class="card-img-top rounded-top" alt="mechas">
-            <div class="card-body text-center">
-                <h5 class="card-title">Mechas</h5>
-                <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
-                <a href="#" class="btn btn-primary">Saiba Mais </a>
-            </div>
-        </div>
-    </div>
 
-    <div class="card m-4 rounded-2">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img id="img-card" src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                    class="card-img-top rounded-top rounded">
-            </div>
-            <div class="col-md-8 d-flex align-items-center text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Mechas</h5>
-                    <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
-                    <a href="#" class="btn btn-primary">Saiba Mais </a>
+            <div class="card m-4 rounded-2">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img id="img-card" src="./images/swati-h-das-LirdKxOXi40-unsplash.jpg"
+                            class="card-img-top rounded-top rounded">
+                    </div>
+                    <div class="col-md-8 d-flex align-items-center text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">MANDALAS</h5>
+                            <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
+    <footer>
+        <div class="container px-4 my-5">
+            <div class="row g-0">
+                <div class="col-md d-flex align-items-center justify-content-center justify-content-md-start">
+                    <h1 class="fw-bold">ATREVIDA</h1>
+                </div>
+                <div class="col-md">
+                    <h5 class="fs-3 my-4 text-center"><img class="fw-bold" src="./images/information-circle-outline.svg" height="40px">SOBRE</h5>
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold " href="#"><img src="./images/location-outline.svg" height="35px"> Rua Curitiba, 590, Ana Nery, Santa Cruz do Sul - RS, Brasil</a>
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="#"><img src="./images/logo-whatsapp.svg" height="35px"> +55 (51) 99859-3383</a>
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="#"><img src="./images/logo-facebook.svg" height="35px"> Atrevida</a>
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="#"><img src="./images/logo-instagram.svg" height="35px"> @Atrevida</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

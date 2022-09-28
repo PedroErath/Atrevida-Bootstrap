@@ -1,6 +1,9 @@
 body{
     background-color: #ffccc8;
 }
+.bg-whatsapp{
+    background-color:  #34af23;
+}
 #carousel-home{
     max-width: 1320px;
     height: 500px;
@@ -9,6 +12,7 @@ body{
     filter: brightness(20%);
     height: 500px;
 }
+
 #img-card{
     height: 400px;
 }
