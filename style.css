@@ -1,5 +1,5 @@
 body{
-    background-color: #ffccc8;
+    background-color: #ffc8cd;
 }
 .bg-whatsapp{
     background-color:  #34af23;
@@ -9,6 +9,6 @@ body{
     height: 500px;
 }
 #img-slide{
-    filter: brightness(20%);
+    filter: brightness(30%);
     height: 500px;
 }
