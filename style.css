@@ -12,3 +12,6 @@ body{
     filter: brightness(30%);
     height: 500px;
 }
+.max-h{
+    max-height: 700px;
+}

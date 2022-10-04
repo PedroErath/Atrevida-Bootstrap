@@ -10,11 +10,12 @@
     <title>ATREVIDA</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body class="px-md-4">
     <header>
         <nav class="container-xxl navbar navbar-expand-sm">
             <div class="container-fluid p-3">
-                <h1 class="fw-bold">ATREVIDA</h1> 
+                <h1 class="fw-bold">ATREVIDA</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                     aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,26 +55,26 @@
             <div class="carousel-inner">
                 <div class="carousel-item active " data-bs-interval="3000">
                     <img id="img-slide" src="./images/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
-                        class="d-block w-100 rounded-4" alt="Slide 1">
+                        class="d-block w-100 rounded-4" alt="Slide 1"> <!--Priemira imagem carousel baner-->
                     <div class="carousel-caption">
-                        <h5>Centro de Beleza Atrevida</h5>
-                        <p>Marque um horário e venha conhecer o meu trabalho</p>
+                        <h5 class="fs-1 fw-bold">Centro de Beleza Atrevida</h5>
+                        <p class="fs-3">Entre em contato pelo <strong>WhatsApp</strong> e marque um horário para ficar ainda mais linda</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img id="img-slide" src="./images/nicolas-flor-ZoebrkckhTs-unsplash.jpg"
-                        class="d-block w-100 rounded-4" alt="Slide 2">
+                        class="d-block w-100 rounded-4" alt="Slide 2"> <!--Segunda imagem carousel baner-->
                     <div class="carousel-caption">
-                        <h5>Dúvidas</h5>
-                        <p>Entre em contato por uma de nossas rede sociais para tirar sua dúvida.</p>
+                        <h5 class="fs-1 fw-bold">Horário de Atendimento</h5>
+                        <p class="fs-3">segunda à sábado das 8:00 às 12:00 e 13:30 às 18:00</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img id="img-slide" src="./images/paul-siewert-dnpa8k6TGRE-unsplash.jpg"
-                        class="d-block w-100 rounded-4" alt="Slide 3">
+                    <img id="img-slide" src="./images/mandala-g03b094784_1920 (1).jpg" class="d-block w-100 rounded-4"
+                        alt="Slide 3"> <!--Terceira imagem carousel baner-->
                     <div class="carousel-caption">
-                        <h5>Horários</h5>
-                        <p>Entre em contato em uma de nossas redes socias para marcar um horário</p>
+                        <h5 class="fs-1 fw-bold">Mandalas</h5>
+                        <p class="fs-3">Encomende sua Mandala e tenha uma melhor relação com cosmo</p>
                     </div>
                 </div>
             </div>
@@ -89,8 +90,8 @@
         <div class="container justify-content-center">
             <div class="card-group justify-content-center d-block d-md-flex m-4">
                 <div class="card m-sm-3 rounded-2">
-                    <img src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                        class="card-img-top rounded-top" alt="mechas" height="400px">
+                    <img src="./images/275929343_334898168461833_7589171042720247611_n.jpg"
+                        class="card-img-top rounded-top" alt="mechas" height="400px"> <!--Imagem card Mechas-->
                     <div class="card-body text-center">
                         <h5 class="card-title">Mechas</h5>
                         <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
@@ -110,31 +111,35 @@
                                     <div class="modal-body">
                                         <div id="carousel-modal" class="carousel slide mb-3" data-bs-ride="carousel">
                                             <div class="carousel-inner">
-                                              <div class="carousel-item active">
-                                                <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="d-block w-100 rounded-2" alt="...">
-                                                <div class="carousel-caption">
-                                                    <h5>ANTES</h5>
+                                                <div class="carousel-item active">
+                                                    <img src="./images/275898230_3178796292352661_3795843848331808743_n.jpg"
+                                                        class="d-block w-100 rounded-2 max-h"> <!-- Primeira imagem carousel mechas-->
+                                                    <div class="carousel-caption">
+                                                        <h5>ANTES</h5>
+                                                    </div>
                                                 </div>
-                                              </div>
-                                              <div class="carousel-item">
-                                                <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="d-block w-100 rounded-2" alt="...">
-                                                <div class="carousel-caption">
-                                                    <h5>DEPOIS</h5>
+                                                <div class="carousel-item">
+                                                    <img src="./images/275929343_334898168461833_7589171042720247611_n.jpg"
+                                                        class="d-block w-100 rounded-2 max-h"> <!-- Segunda imagem carousel mechas-->
+                                                    <div class="carousel-caption">
+                                                        <h5>DEPOIS</h5>
+                                                    </div>
                                                 </div>
-                                              </div>
                                             </div>
-                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-modal" data-bs-slide="prev">
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carousel-modal" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span class="visually-hidden">Previous</span>
-                                              </button>
-                                              <button class="carousel-control-next" type="button" data-bs-target="#carousel-modal" data-bs-slide="next">
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carousel-modal" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span class="visually-hidden">Next</span>
-                                              </button>
-                                          </div>
+                                            </button>
+                                        </div>
                                         <img class="rounded-2 mb-3"
-                                            src="images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                                            alt="" width="100%">
+                                            src="images/./275909366_1386959721729306_2069550107808753711_n.jpg" alt=""
+                                            width="100%"> <!-- segunda imagem modal mechas-->
                                     </div>
                                 </div>
                             </div>
@@ -142,8 +147,8 @@
                     </div>
                 </div>
                 <div class="card m-sm-3 rounded-2">
-                    <img src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                        class="card-img-top rounded-top" alt="mechas" height="400px">
+                    <img src="./images/275803265_3222929174608509_3358225235586534668_n.jpg"
+                        class="card-img-top rounded-top" alt="mechas" height="400px"> <!--Imagem card Cortes-->
                     <div class="card-body text-center">
                         <h5 class="card-title">Cortes</h5>
                         <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
@@ -153,7 +158,7 @@
                         </button>
                         <div id="modal-corte" class="modal fade" tabindex="-1" aria-labelledby="modal-corte"
                             aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title">Cortes</h5>
@@ -161,12 +166,10 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img class="rounded-2 mb-3"
-                                            src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
-                                            width="100%">
-                                        <img class="rounded-2 mb-3"
-                                            src="images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                                            alt="" width="100%">
+                                        <img class="rounded-2 mb-3 w-100 max-h"
+                                            src="images/275803265_3222929174608509_3358225235586534668_n.jpg" alt=""> <!-- Primeira imagem modal cortes-->
+                                        <img class="rounded-2 mb-3 w-100 max-h"
+                                            src="images/275945569_940492850001783_1100761853531707377_n.jpg"> <!-- Segunda imagem modal cortes-->
                                     </div>
                                 </div>
                             </div>
@@ -174,10 +177,10 @@
                     </div>
                 </div>
                 <div class="card m-sm-3 rounded-2">
-                    <img src="./images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                        class="card-img-top rounded-top" alt="mechas" height="400px">
+                    <img src="./images/275857577_1640921796274011_3187110094933808767_n.jpg"
+                        class="card-img-top rounded-top" alt="mechas" height="400px"> <!--Imagem card Alisamento-->
                     <div class="card-body text-center">
-                        <h5 class="card-title">Progressiva</h5>
+                        <h5 class="card-title">Alisamento</h5>
                         <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#modal-alisamento">
@@ -185,7 +188,7 @@
                         </button>
                         <div id="modal-alisamento" class="modal fade" tabindex="-1" aria-labelledby="modal-alisamento"
                             aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title">Alisamento</h5>
@@ -193,12 +196,10 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img class="rounded-2 mb-3"
-                                            src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
-                                            width="100%">
-                                        <img class="rounded-2 mb-3"
-                                            src="images/jessie-dee-dabrowski-www-jessiedee-net-W6cwaL7PMSw-unsplash.jpg"
-                                            alt="" width="100%">
+                                        <img class="rounded-2 mb-3 w-100 max-h"
+                                            src="images/275857577_1640921796274011_3187110094933808767_n.jpg"> <!-- Primeira imagem modal alisamento-->
+                                        <img class="rounded-2 mb-3 w-100 max-h"
+                                            src="images/275792745_307459421454838_1363925843057756018_n.jpg"> <!-- Segunda imagem modal alisamento-->
                                     </div>
                                 </div>
                             </div>
@@ -209,8 +210,8 @@
             <div id="mandalas" class="card m-4 rounded-2">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img id="img-card" src="./images/swati-h-das-LirdKxOXi40-unsplash.jpg"
-                            class="card-img-top rounded-top rounded">
+                        <img id="img-card" src="./images/307822528_6051844724829143_7126586364334985175_n.jpg"
+                            class="card-img-top rounded-top rounded"> <!--Imagem card mandalas-->
                     </div>
                     <div class="col-md-8 d-flex align-items-center text-center">
                         <div class="card-body">
@@ -218,8 +219,11 @@
                             <p class="card-text">Venha deixar seu cabelo ainda mais bonito</p>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#modal-mandalas">
-                                Valores
+                                TAMANHOS
                             </button>
+                            <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4"
+                                href="https://instagram.com/mandalasdazoe?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                                    src="./images/logo-instagram.svg" height="35px"> @mandalasdazoe</a> <!--Link Instagram-->
                             <div id="modal-mandalas" class="modal fade" tabindex="-1" aria-labelledby="modal-mandalas"
                                 aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -231,25 +235,22 @@
                                         </div>
                                         <div class="modal-body">
                                             <div>
-                                                <img class="rounded-2 mb-3"
-                                                    src="./images/swati-h-das-LirdKxOXi40-unsplash.jpg" alt=""
-                                                    width="100%">
+                                                <img class="rounded-2 mb-3 w-100 max-h"
+                                                    src="./images/310203772_193417766494951_5217500571614806841_n.jpg"><!--Primeira imagem mandalas modal-->
                                                 <h5>Tamanho 75x75</h5>
                                                 <h6>R$ 39,99</h6>
                                                 <hr>
                                             </div>
                                             <div>
-                                                <img class="rounded-2 mb-3"
-                                                    src="./images/swati-h-das-LirdKxOXi40-unsplash.jpg" alt=""
-                                                    width="100%">
+                                                <img class="rounded-2 mb-3 w-100 max-h"
+                                                    src="./images/306839235_159198063388288_3012198439143456837_n.jpg"><!--Segunda imagem mandalas modal-->
                                                 <h5>Tamanho 120x75</h5>
                                                 <h6>R$ 75,99</h6>
                                                 <hr>
                                             </div>
                                             <div>
-                                                <img class="rounded-2 mb-3"
-                                                    src="./images/swati-h-das-LirdKxOXi40-unsplash.jpg" alt=""
-                                                    width="100%">
+                                                <img class="rounded-2 mb-3 w-100 max-h"
+                                                    src="./images/306284955_180506331133610_8867135294209177742_n.jpg"><!--Terceira imagem mandalas modal-->
                                                 <h5>Tamanho 200x200</h5>
                                                 <h6>R$ 199,99</h6>
                                                 <hr>
@@ -275,22 +276,27 @@
                             src="./images/information-circle-outline.svg" height="40px">SOBRE</h5>
                     <div class="d-flex align-items-center">
                         <div>
-                            <img src="./images/location-outline.svg" height="35px">
+                            <img src="./images/location-outline.svg" height="35px"> <!--Img localização antes do endereço-->
                         </div>
                         <div>
-                            <a class="text-decoration-none text-black fs-5 d-block fw-bold" href="https://goo.gl/maps/GA3PKjETvTjPEi8t5" target="_blank"> R. Curitiba, 590
-                                - Ana Nery, Santa Cruz do Sul - RS</a>
+                            <a class="text-decoration-none text-black fs-5 d-block fw-bold"
+                                href="https://goo.gl/maps/GA3PKjETvTjPEi8t5" target="_blank"> R. Curitiba, 590
+                                - Ana Nery, Santa Cruz do Sul - RS</a> <!--Link endereço-->
                         </div>
                     </div>
-                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="https://wa.me/5551998593383" target="_blank"><img
-                            src="./images/logo-whatsapp.svg" height="35px"> 51 99859-3383</a>
-                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="https://m.facebook.com/profile.php?id=100066786713324&eav=Afb54N3PUnLmGRL6xLHwzsfR5EArDaq6A2n1K205iDCDp2ja9f9WG97cwlbtYw1W6wk&refid=46&ref=content_filter&__xts__%5B0%5D=12.AbqQNearm6CVmwSYN6wuCDKjq2a02KTbXecrpNtO_PHba8sYG-McUQiK1NE2_aBwGQUL2v0lmBQXcv784yDRi9Ooh2Azs0kVO5Fy3EEuFXtWUyjmb_Wzc3awIu_B1cmbnwx7uQSDfTjYSjwvjMnCj2Img5MXtu0thUv6DEofEx1n_gkz-ayJJIiWjaGWcx9gk0h8e5XbgLE3MMK2jyDBDkV6R-0xXK7cyXJfGormWq8Y_Vq87xJW0aWIINoO7OcwvnXrHATVZKQns9rg4HhYGW-G1BAjhSzNEeJZ2_O9qq6Dh43WZV6hSy2n7e7biLLgo43k5KDCOpBJVCC4vVSUb0L8MeSleO5idetgkGmuI4iUfoSbj7HD1B7I6wJcml1aoHk&__tn__=C&paipv=0&_rdr" target="_blank"><img
-                            src="./images/logo-facebook.svg" height="35px"> Atrevida</a>
-                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4" href="https://instagram.com/atrevidacristoillier?igshid=YmMyMTA2M2Y=" target="_blank"><img
-                            src="./images/logo-instagram.svg" height="35px"> @atrevidacristoillier</a>
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4"
+                        href="https://wa.me/5551998593383" target="_blank"><img src="./images/logo-whatsapp.svg"
+                            height="35px"> 51 99859-3383</a> <!--Link Whatsapp-->
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4"
+                        href="https://m.facebook.com/profile.php?id=100066786713324&eav=Afb54N3PUnLmGRL6xLHwzsfR5EArDaq6A2n1K205iDCDp2ja9f9WG97cwlbtYw1W6wk&refid=46&ref=content_filter&__xts__%5B0%5D=12.AbqQNearm6CVmwSYN6wuCDKjq2a02KTbXecrpNtO_PHba8sYG-McUQiK1NE2_aBwGQUL2v0lmBQXcv784yDRi9Ooh2Azs0kVO5Fy3EEuFXtWUyjmb_Wzc3awIu_B1cmbnwx7uQSDfTjYSjwvjMnCj2Img5MXtu0thUv6DEofEx1n_gkz-ayJJIiWjaGWcx9gk0h8e5XbgLE3MMK2jyDBDkV6R-0xXK7cyXJfGormWq8Y_Vq87xJW0aWIINoO7OcwvnXrHATVZKQns9rg4HhYGW-G1BAjhSzNEeJZ2_O9qq6Dh43WZV6hSy2n7e7biLLgo43k5KDCOpBJVCC4vVSUb0L8MeSleO5idetgkGmuI4iUfoSbj7HD1B7I6wJcml1aoHk&__tn__=C&paipv=0&_rdr"
+                        target="_blank"><img src="./images/logo-facebook.svg" height="35px"> Atrevida</a> <!--Link Facebook-->
+                    <a class="text-decoration-none text-black fs-5 d-block fw-bold mt-4"
+                        href="https://instagram.com/atrevidacristoillier?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="./images/logo-instagram.svg" height="35px"> @atrevidacristoillier</a> <!--Link Instagram-->
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
